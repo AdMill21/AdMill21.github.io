@@ -5,38 +5,59 @@
     <meta charset="utf-8" />
     <meta name="author" content="Adam Millard"/>
     <title>My Profile</title>
+    <link href="profileStyle.css" rel="stylesheet">
 </head>
 <body>
-    <div>
-    <h1>Adam Millard</h1>
-    </div>
-
-    <div>
-        <h2>My Profile</h2>
-        <p>Here is <strong>my profile</strong></p>
-    </div>
-
-    <div>
-        <h3>My Skills</h3>
-        <ol>
-            <li>Problem Solving</li>
-            <li>Analysis</li>
-        </ol>
-    </div>
-    <div>
-        <h3>My Hobbies</h3>
+    <nav>
         <ul>
-            <li>Cricket</li>
-            <li>Badminton</li>
-            <li>Sudoku</li>
+            <li><a href="index.html">Profile</a></li>
+            <li><a href="projects.html">Projects</a></li>
         </ul>
-    </div>
-    <div>
-        <h3>My Life Goals</h3>
-    </div>
-    <div>
-        <h2>Check Out the News</h2>
-    </div>
-    
+    </nav>
+    <header>
+    <h1>Adam Millard</h1>
+    <img src="profilepic.png" alt="My Profile Picture" />
+    <hr />
+    </header>
+    <section>
+        <article>
+            <h2>My Profile</h2>
+            <p>Here is <strong>my profile</strong></p>
+        </article>
+
+        <article>
+            <h3>My Skills</h3>
+            <ol>
+                <li>Problem Solving</li>
+                <li>Analysis</li>
+            </ol>
+        </article>
+        <article>
+            <h3>My Hobbies</h3>
+            <ul>
+                <li>Cricket</li>
+                <li>Badminton</li>
+                <li>Sudoku</li>
+            </ul>
+        </article>
+        <article>
+            <h3>My Life Goals</h3>
+            <p>Get to where I want to be.</p>
+        </article>
+    </section>
+    <section>
+            <h2>Check Out the News</h2>
+            <form action="https://www.bbc.co.uk/search" method="get" target="_blank">
+                <label for="mysearch">
+                    Search for:
+                </label>
+                <input id="mysearch" type="text" name="q" value="Scarborough" />
+                <input type="submit" value="Submit Me" />
+            </form>
+    </section>
+
+    <footer>
+        <small>Copyright &#169; Sparta Global 2022 <cite>by A. Millard</cite></small>
+    </footer>
 </body>
 </html>
