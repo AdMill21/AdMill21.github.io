@@ -1,6 +1,120 @@
-﻿a{
-    color:dodgerblue
+﻿li{
+    color:ghostwhite;
 }
-body
-{
+a {
+    padding: 8px;
+    margin: 20px;
+}
+a:visited{
+    color:ghostwhite;
+}
+p{
+    font-size: 1.2rem;
+}
+#maintitle{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.demo-class{
+    background-color: rebeccapurple;
+}
+*{
+    font-family: "Comic Sans MS";
+    font-size: 16px;
+    font-weight: lighter;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 4px;
+}
+body{
+    background-color: steelblue;
+    background-blend-mode:darken;
+    color:floralwhite;
+}
+h3 {
+    color:whitesmoke;
+}
+.section-1 {
+    background-color: rgba(0,0,0,0.3);
+    border: 4PX slategrey double;
+    padding: 0% 20%;
+    margin: 10px;
+}
+.section-1 li {
+    font-family: 'Comic Sans MS';
+    font-weight: 200;
+    font-style: italic;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+.section-2 {
+    background-color: rgba(0,0,0,0.2);
+    border: 4px grey double;
+    padding: 0% 20%;
+    margin: 10px;
+}
+.container {
+    width: 75%;
+    margin: auto;
+}
+ul {
+    width: 300px;
+}
+section {
+    margin-left: 16px;
+    margin-top: 8px;
+    margin-right: 32px;
+    margin-bottom: 4px;
+    padding: 8px 16px 4px;
+}
+#myform {
+    background-color: darkslategrey;
+    color: whitesmoke;
+    padding: 50px;
+    margin: 10px;
+}
+
+#myform input[type = "text"] {
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%
+}
+input[type = "submit"]{
+    padding 9px;
+    border: none;
+    background-color: lightslategray;
+    color: whitesmoke;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: start;
+}
+.flex-container li {
+    list-style: none;
+}
+a { 
+    text-decoration: none;
+    color:whitesmoke;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: red;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 300px;
+    border-radius: 100%;
+}
+.table {
+    color:ghostwhite;
+    margin: 2px;
 }

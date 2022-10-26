@@ -2,38 +2,47 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My projects</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link href="profileStyle.css" rel="stylesheet">
 </head>
 <body>
     <main>
         <nav id="mainNav">
-            <ul>                
+            <ul class="flex-container">
                 <li class="nav-item"><a href="index.html">Go to Profile</a></li>
                 <li class="nav-item"><a href="projects.html">Go to Projects</a></li>
                 <li class="nav-item"><a href="https://www.linkedin.com/" target="_blank">My LinkedIn</a></li>
-            </ul>        
+                <li><a href="balloongame.html">Balloon Game</a></li>
+            </ul>
         </nav>
         <h1>Projects</h1>
-        <table>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <table class="table table-sm">
             <thead>
                 <tr>
-                    <th>Project Name</th>
-                    <th>Description</th>
-                    <th>Year</th>
-                    
+                    <th scope="col">#</th>
+                    <th scope="col">Project Name</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Year</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody class="table-group-divider">
                 <tr>
-                    <td>Agile Project</td>
-                    <td>Did some stuff with user stories</td>
-                    <td>2021</td>
+                    <th scope="row">1</th>
+                    <td>Sort Manager Project</td>
+                    <td>Using a project board, to organise a sprint backlog for which we included user stories which had acceptance criteria
+                    and a definition of done as we attempted to create a console app that sorted a random array. We then presented out project
+                    in a spprint review to the product owners and thenhad a retrospective. </td>
+                    <td>2022</td>
                 </tr>
                 <tr>
-                    <td>API Project</td>
-                    <td>Made requests</td>
-                    <td>2021</td>
+                    <th scope="row">2</th>
+                    <td>Api Project</td>
+                    <td>Again we followed a asimilar pattern but this time we impemented the same agile philosophies but this time we were tasked with creating
+                    an API for staff members of a company to be able to access certain information about the customers of a company. Allowing them to use the various get, post, put and delete methods.</td>
+                    <td>2022</td>
                 </tr>
             </tbody>
         </table>

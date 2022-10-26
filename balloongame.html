@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Adam Millard" />
+    <title>Balloon Game</title>
+    <link href="profileStyle.css" rel="stylesheet">
+    <script src="main.js" defer></script>
+    <script src="game.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.2/lib/p5.js" defer></script>
+</head>
+<body>
+    <nav>
+        <ul class="flex-container">
+            <li><a href="index.html">Profile</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="balloongame.html">Balloon Game</a></li>
+        </ul>
+    </nav>
+    <div id="title-container">
+        <h1 id="greeting" onmouseover="changeText()">Hello There</h1>
+    </div>
+    <button onclick="greeting()">
+        Say hello!
+    </button>
+    <hr />
+    <section id="gameContainer">
+        <h2>Pop the Balloons!</h2>
+        <p>Score: <span id="score">0</span></p>
+        <button onclick="restart()">
+            Restart Game!
+        </button>
+    </section>
+</body>
+</html>

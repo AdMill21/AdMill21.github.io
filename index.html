@@ -9,52 +9,55 @@
 </head>
 <body>
     <nav>
-        <ul>
+        <ul class="flex-container">
             <li><a href="index.html">Profile</a></li>
             <li><a href="projects.html">Projects</a></li>
+            <li><a href="balloongame.html">Balloon Game</a></li>
         </ul>
     </nav>
-    <header>
-    <h1>Adam Millard</h1>
-    <img src="profilepic.png" alt="My Profile Picture" />
-    <hr />
-    </header>
-    <section>
-        <article>
-            <h2>My Profile</h2>
-            <p>Here is <strong>my profile</strong></p>
-        </article>
+    <div class="container">
+        <header>
+            <h1 id="maintitle">Adam Millard</h1>
+            <img src=".\Assets/profilepic.jpg" alt="My Profile Picture" />
+            <hr />
+        </header>
+        <section>
+            <article class="demo-class section-1">
+                <h2>My Profile</h2>
+                <p>Here is <strong>my profile</strong></p>
+            </article>
 
-        <article>
-            <h3>My Skills</h3>
-            <ol>
-                <li>Problem Solving</li>
-                <li>Analysis</li>
-            </ol>
-        </article>
-        <article>
-            <h3>My Hobbies</h3>
-            <ul>
-                <li>Cricket</li>
-                <li>Badminton</li>
-                <li>Sudoku</li>
-            </ul>
-        </article>
-        <article>
-            <h3>My Life Goals</h3>
-            <p>Get to where I want to be.</p>
-        </article>
-    </section>
-    <section>
+            <article class="section-2">
+                <h3>My Skills</h3>
+                <ol>
+                    <li>Problem Solving</li>
+                    <li>Analysis</li>
+                </ol>
+            </article>
+            <article class="section-1">
+                <h3>My Hobbies</h3>
+                <ul>
+                    <li>Cricket</li>
+                    <li>Badminton</li>
+                    <li>Sudoku</li>
+                </ul>
+            </article>
+            <article class="section-2">
+                <h3>My Life Goals</h3>
+                <p>To live an enjoyable successful and stressfree life.</p>
+            </article>
+        </section>
+        <section>
             <h2>Check Out the News</h2>
-            <form action="https://www.bbc.co.uk/search" method="get" target="_blank">
+            <form action="https://www.bbc.co.uk/search" method="get" target="_blank" id="myform">
                 <label for="mysearch">
                     Search for:
                 </label>
                 <input id="mysearch" type="text" name="q" value="Scarborough" />
                 <input type="submit" value="Submit Me" />
             </form>
-    </section>
+        </section>
+    </div>
 
     <footer>
         <small>Copyright &#169; Sparta Global 2022 <cite>by A. Millard</cite></small>
